@@ -1,0 +1,22 @@
+//#pragma once NOTE: pragma once prevents multple passes on this for generation of functionality
+
+namespace Resourcing
+{
+	RSC_DATA_BEGIN(Vector2)
+	RSC_DATA_W_DEFAULT(Vector2, float, m_1, 0.0f)
+	RSC_DATA_W_DEFAULT(Vector2, float, m_2, 0.0f)
+	RSC_DATA_END(Vector2) 
+
+	RSC_DATA_BEGIN(Vector3)
+	RSC_DATA_W_DEFAULT(Vector3, float, m_1, 0.0f)
+	RSC_DATA_W_DEFAULT(Vector3, float, m_2, 0.0f)
+	RSC_DATA_W_DEFAULT(Vector3, float, m_3, 0.0f)
+	RSC_DATA_END(Vector3)
+
+	RSC_DATA_BEGIN(Vector4)
+	RSC_DATA_W_DEFAULT(Vector4, float, m_1, 0.0f)
+	RSC_DATA_W_DEFAULT(Vector4, float, m_2, 0.0f)
+	RSC_DATA_W_DEFAULT(Vector4, float, m_3, 0.0f)
+	RSC_DATA_W_DEFAULT(Vector4, float, m_4, 0.0f)
+	RSC_DATA_END(Vector4)
+}
